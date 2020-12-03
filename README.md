@@ -13,12 +13,20 @@
 WIP
 
 ## Workflow
-enter:
-- a site url -> get all @ + linkedin href -> get_people() + generate mails patterns -> whild !res.isvalid test on dropcontact
-- a linkedin company profile -> get_people, go on 
+1/ react form to get linkedin company and lead urls
+2/ fetch get_people function
+3/ fetch Drop Contact with params name/last_name/company and return if result
+4/ fetch hunter.io with params company and return if result
+5?/ fetch verifyemailaddress.org with pre-built emails
+6/ render DOM and gsheet
+7/ auto add to gmail contact ?
 
 ## Technologies
 * React with front env (npm, webpack, babel)
+
+## APIs
+* dropcontact.io: [doc]() | [response]()
+* hunters.io: [doc](https://hunter.io/api-keys) | [response](https://api.hunter.io/v2/email-verifier?email=patrick@stripe.com&api_key=2045354a4d7e7698f7090f7759a4effe065c1603)
 
 ## Setup
 WIP
